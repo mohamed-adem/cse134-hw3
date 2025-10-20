@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Mohamed Adem</title>
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <style>
+        header, nav, main, section, article, footer { border: 1px solid; }
+        layout-block { display: block; /* property 1 */ }
+
+    </style>
+    <script defer src="https://randomsite.example/analytics.js"></script>
+</head>
+
+<body>
+    <noscript>Analytics script placeholder.</noscript>
+    <header>
+        <h1>Mohamed Adem</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="projects.html">Projects</a></li>
+                <li> <a href="about.html">About </a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li><a href="experiments.html">Experiments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Hello! <b>Bold</b>, <i>italic</i>, <strong>strong</strong>, <em>emphasis</em> text demo.<br>Manual line break demo.</p>
+            <picture>
+                <source srcset="hero.avif" type="image/avif">
+                <source srcset="hero.webp" type="image/webp">
+                <img src="hero.jpg" alt="Placeholder hero image" width="480" height="240">
+              </picture>
+              <iframe title="Inline demo" srcdoc="<p>iframe demo only</p>" width="320" height="120"></iframe>
+              <svg width="180" height="80" role="img" aria-label="SVG demo">
+                <rect x="5" y="5" width="170" height="70" stroke="black" fill="none"></rect>
+                <text x="20" y="45">SVG OK</text>
+              </svg>
+        </section>
+
+        <section>
+            <h2>Projects Preview</h2>
+            <ul>
+              <li><article><h3>Project One</h3><p>Short summary…</p></article></li>
+              <li><article><h3>Project Two</h3><p>Short summary…</p></article></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Progress</h2>
+            <progress value="35" max="100">35%</progress>
+        </section>
+
+        <layout-block>
+            <p>Semantic CSS custom element wrapper.</p>
+        </layout-block>
+        <hello-console></hello-console>
+    </main>
+
+    <footer>
+        <p><strong>©</strong> 2025 <span>Mohamed Adem</span></p>
+    </footer>
+    <script src="custom-elements.js" defer></script>
+</body>
+</html>
